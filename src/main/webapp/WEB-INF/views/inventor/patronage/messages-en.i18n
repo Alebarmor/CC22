@@ -1,0 +1,16 @@
+inventor.patronage.list.label.code = Code
+inventor.patronage.list.label.start-period = Start of the period
+inventor.patronage.list.label.end-period = End of the period
+inventor.patronage.list.label.status = Status
+
+inventor.patronage.form.label.status = Status:
+inventor.patronage.form.label.code = Code:
+inventor.patronage.form.label.legal-stuff = Legal Stuff:
+inventor.patronage.form.label.budget = Budget:
+inventor.patronage.form.label.patron.name = Patron's name:
+inventor.patronage.form.label.patron.email = Patron's email:
+inventor.patronage.form.label.start-period = Start of the period:
+inventor.patronage.form.label.end-period = End of the period:
+inventor.patronage.form.label.link = Link with further information:
+
+inventor.patronage.form.button.update = Update

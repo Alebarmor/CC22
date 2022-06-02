@@ -1,0 +1,2 @@
+timestamp,test-class,test-method,time,description,result
+"2022-04-07 13:04:53.475","acme.testing.patron.chirp.PatronChirpListAllTest","positiveTest",15164,""[1] recordIndex=0, creationMoment=2022/03/19 10:30, title=Title 11, author=Author 11, body=Body 11, email=email@11.com"","OK"

@@ -1,0 +1,5 @@
+recordIndex,name,itemType,code,technology,description,retailPrice,optionalLink,fullname
+0,Component 01,COMPONENT,AAA-000,Technology 02,Sample Component,EUR 16.00,,"Number One, Inventor"
+1,Component 02,COMPONENT,AAA-000-A,Technology 03,Sample Component,EUR 15.50,https://en.wikipedia.org/wiki/Component,"Number One, Inventor"
+2,Component 04,COMPONENT,BBB-111-B,Technology 02,Sample Component,EUR 987.67,https://en.wikipedia.org/wiki/Component,"Number One, Inventor"
+3,Component 05,COMPONENT,CCC-222,Technology 03,Sample Component,EUR 1.00,,"Number One, Inventor"

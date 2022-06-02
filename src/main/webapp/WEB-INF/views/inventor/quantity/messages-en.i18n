@@ -1,0 +1,20 @@
+inventor.item.list.label.number = Number of elements
+inventor.item.list.label.item-type = Item Type 
+inventor.item.list.label.item-name = Name
+inventor.item.list.label.item-technology = Technology
+inventor.item.list.label.item-retailPrice = Retail Price
+
+inventor.item.form.label.item-type = Item Type
+
+inventor.item-toolkit.list.button.create = Associate items to the toolkit
+
+inventor.item.form.label.number = Number of elements
+inventor.item.form.label.item = Possible items
+
+inventor.quantity.form.button.update = Update
+inventor.quantity.form.button.delete = Delete
+
+inventor.item-toolkit.form.button.create = Associate items to the toolkit
+
+inventor.quantity.form.error.toolkit-has-tool = This toolkit must have 1 tool
+inventor.quantity.form.error.noItem = You must be select at least one item published

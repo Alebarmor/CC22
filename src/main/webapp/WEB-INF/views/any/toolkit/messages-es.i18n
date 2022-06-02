@@ -1,0 +1,13 @@
+any.toolkit.form.label.code = Codigo:
+any.toolkit.form.label.title = Titulo:
+any.toolkit.form.label.description = Descripción:
+any.toolkit.form.label.assemblyNote = Notas de ensamblaje:
+any.toolkit.form.label.retailPrice = Precio de venta:
+any.toolkit.form.label.link = Link opcional:
+any.toolkit.form.label.inventor = Inventor:
+
+any.toolkit.form.button.items = Objetos
+
+any.toolkit.list.label.code = Codigo
+any.toolkit.list.label.title = Titulo
+any.toolkit.list.label.inventor = Inventor

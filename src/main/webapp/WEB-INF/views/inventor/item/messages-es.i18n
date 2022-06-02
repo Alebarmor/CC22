@@ -1,0 +1,32 @@
+inventor.item.list.label.name = Nombre
+inventor.item.list.label.code = Código
+inventor.item.list.label.username = Inventor
+inventor.item.list.label.retailPrice = Precio de venta
+inventor.item.list.label.published = Publicado
+inventor.item.form.label.change = Cambio
+
+inventor.item.list.button.create = Crear Nuevo Artículo
+
+inventor.item.form.label.name = Nombre
+inventor.item.form.label.itemType = Tipo de item
+inventor.item.form.label.code = Código
+inventor.item.form.label.technology = Tecnología
+inventor.item.form.label.description = Descripción
+inventor.item.form.label.retailPrice = Precio de venta
+inventor.item.form.label.optionalLink = Link Opcional
+inventor.item.form.label.published = Publicado
+inventor.item.form.label.username = Usuario del Inventor
+inventor.item.form.label.fullname = Nombre del Inventor
+
+inventor.item.form.error.incorrect-name = Nombre tiene que ser menor a 101
+inventor.item.form.error.incorrect-technology = Tecnologia tiene que ser menor a 101
+inventor.item.form.error.incorrect-description = Descripcion tiene que ser menor a 256
+
+inventor.item.form.button.create = Crear
+inventor.item.form.button.update = Actualizar
+inventor.item.form.button.delete = Borrar
+inventor.item.form.button.publish = Publicar
+
+inventor.item.form.error.duplicated = Ya existe un artículo con este código
+inventor.item.form.error.negative-retailPrice = El precio de venta al público no puede ser negativo
+inventor.item.form.error.incorrect-currency = La divisa del presupuesto debe de ser una de las aceptadas por el sistema. Por favor, revise los parámetros de configuración 

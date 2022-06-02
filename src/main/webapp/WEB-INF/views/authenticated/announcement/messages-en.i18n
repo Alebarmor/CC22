@@ -1,0 +1,8 @@
+authenticated.announcement.list.label.creation = Creation Date
+authenticated.announcement.list.label.title = Title
+authenticated.announcement.list.label.status = Status
+
+authenticated.announcement.form.label.title = Title
+authenticated.announcement.form.label.status = Status
+authenticated.announcement.form.label.body = Body
+authenticated.announcement.form.label.link = Link

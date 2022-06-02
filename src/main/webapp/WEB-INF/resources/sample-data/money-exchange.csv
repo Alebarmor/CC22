@@ -1,0 +1,5 @@
+key,source,currency-target,target,date
+exchange-01,EUR 10.50,USD,USD 11.09,2022/05/20 15:35
+exchange-02,USD 9.51,EUR,EUR 9.01,2022/05/20 15:46
+exchange-03,GDP 19.50,EUR,EUR 23.03,2022/05/20 15:47
+exchange-04,EUR 28.55,GDP,GDP 24.17,2022/05/20 15:48

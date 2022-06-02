@@ -1,0 +1,3 @@
+recordIndex,status,code,legalStuff,budget,username,fullName,email,startPeriod,endPeriod,link
+2,PROPOSED,XXX-111-Z,E,"USD 0.00",inventor1,"Number One, Inventor",inventor1@acme.com,2024/01/01 00:00,2024/01/08 00:00,https://www.twitch.tv
+3,PROPOSED,XXX-112,Este texto tiene algo de sexi pero no lo suficienteEste texto tiene algo de sexi pero no lo suficienteEste texto tiene algo de sexi pero no lo suficienteEste texto tiene algo de sexi pero no lo suficienteEste texto tiene algo de sexi pero no lo suficiente,"EUR 0.01",inventor2,"Number Two, Inventor",inventor2@acme.com,2024/01/01 00:00,2024/03/01 00:00,
