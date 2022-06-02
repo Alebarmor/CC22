@@ -1,0 +1,7 @@
+key,code,title,description,assemblyNote,optionalLink,draft,key:inventor
+toolkit-01,ABC-111-A,Titulo 1,Sample Toolkit,Nota de montaje 1,https://es.wikipedia.org/wiki/Montaje,false,inventor-01
+toolkit-02,ABC-222,Titulo 2,Sample Toolkit,Nota de montaje 2,null,false,inventor-02
+toolkit-03,ABC-333-B,Titulo 3,Sample Toolkit,Nota de montaje 3,https://es.wikipedia.org/wiki/Montaje,false,inventor-01
+toolkit-04,ABC-444,Titulo 4,Sample Toolkit,Nota de montaje 4,null,true,inventor-02
+toolkit-05,ABC-555-C,Titulo 5,Sample Toolkit,Nota de montaje 5,https://es.wikipedia.org/wiki/Montaje,false,inventor-03
+toolkit-06,AAC-666,Titulo 6,Sample Toolkit,Nota de montaje 6,null,true,inventor-01

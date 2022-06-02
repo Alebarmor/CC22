@@ -1,0 +1,2 @@
+timestamp,test-class,test-method,time,description,result
+"2022-04-30 20:57:17.745","acme.testing.administrator.configuration.AdministratorConfigurationShowTest","positiveTest",19845,""[1] recordIndex=0, defaultCurrency=EUR, acceptedCurrencies=EUR,USD,GBP, strongSpamTerms=sex,sexo,hard core,duro,viagra,cialis, strongSpamThreshold=0.10, weakSpamTerms=sexy,sexi,nigeria,you've won,has ganado,one million,un millón, weakSpamThreshold=0.25"","OK"

@@ -1,0 +1,11 @@
+key,creation,title,body,status,link
+announcement-01,2022/01/01 10:00,Title 01,Body 01,INFO,https://www.twitch.tv
+announcement-02,2022/05/22 20:00,Title 02,Body 02,WARNING,https://www.twitch.tv
+announcement-03,2022/03/03 03:00,Title 03,Body 03,IMPORTANT,https://www.twitch.tv
+announcement-04,2022/02/01 12:00,Title 04,Body 04,INFO,https://www.twitch.tv
+announcement-05,2022/04/03 14:00,Title 05,Body 05,WARNING,https://www.twitch.tv
+announcement-06,2022/01/01 13:00,Title 06,Body 06,IMPORTANT,https://www.twitch.tv
+announcement-07,2022/04/01 01:00,Title 07,Body 07,INFO,https://www.twitch.tv
+announcement-08,2022/03/03 18:00,Title 08,Body 08,WARNING,https://www.twitch.tv
+announcement-09,2022/04/01 17:00,Title 09,Body 09,IMPORTANT,https://www.twitch.tv
+announcement-10,2022/04/02 08:00,Title 10,Body 10,INFO,https://www.twitch.tv

@@ -1,0 +1,15 @@
+defaultCurrency,acceptedCurrencies,strongSpamTerms,strongSpamThreshold,weakSpamTerms,weakSpamThreshold
+"",,,,,
+"","EUR,USD,GBP","sex,sexo,hard core,duro,viagra,cialis",0.10,"sexy,sexi,nigeria,you've won,has ganado,one million,un millón",0.95
+EU,"EUR,USD,GBP","sex,sexo,hard core,duro,viagra,cialis",0.10,"sexy,sexi,nigeria,you've won,has ganado,one million,un millón",1.01
+INR,"EUR,USD,GBP","sex,sexo,hard core,duro,viagra,cialis",0.10,"sexy,sexi,nigeria,you've won,has ganado,one million,un millón",1.01
+EUR,,"sex,sexo,hard core,duro,viagra,cialis",0.10,"sexy,sexi,nigeria,you've won,has ganado,one million,un millón",0.95
+EUR,"EUR,US,GBP","sex,sexo,hard core,duro,viagra,cialis",0.10,"sexy,sexi,nigeria,you've won,has ganado,one million,un millón",0.95
+EUR,"EUR,USD,GBP","sex,sexo,hard core,duro,viagra,cialis",hola,"sexy,sexi,nigeria,you've won,has ganado,one million,un millón",0.95
+EUR,"EUR,USD,GBP","sex,sexo,hard core,duro,viagra,cialis",,"sexy,sexi,nigeria,you've won,has ganado,one million,un millón",0.95
+EUR,"EUR,USD,GBP","sex,sexo,hard core,duro,viagra,cialis",-0.01,"sexy,sexi,nigeria,you've won,has ganado,one million,un millón",0.95
+EUR,"EUR,USD,GBP","sex,sexo,hard core,duro,viagra,cialis",-0.01,"sexy,sexi,nigeria,you've won,has ganado,one million,un millón",0.95
+EUR,"EUR,USD,GBP","sex,sexo,hard core,duro,viagra,cialis",0.10,"sexy,sexi,nigeria,you've won,has ganado,one million,un millón",
+EUR,"EUR,USD,GBP","sex,sexo,hard core,duro,viagra,cialis",0.10,"sexy,sexi,nigeria,you've won,has ganado,one million,un millón",1.01
+EUR,"EUR,USD,GBP","sex,sexo,hard core,duro,viagra,cialis",0.10,"sexy,sexi,nigeria,you've won,has ganado,one million,un millón",-0.01
+EUR,"EUR,USD,GBP","sex,sexo,hard core,duro,viagra,cialis",0.10,"sexy,sexi,nigeria,you've won,has ganado,one million,un millón",hola

@@ -1,0 +1,10 @@
+recordIndex,code,title,description,assemblyNote,optionalLink
+0,,Fail 1,This is a description test,This is an assembly note test,https://projuven.org/wp-content/uploads/2017/09/toolkit1.jpg
+1,TST-123,,This is a description test,This is an assembly note test,https://projuven.org/wp-content/uploads/2017/09/toolkit1.jpg
+2,TST-123,Fail 1,,This is an assembly note test,https://projuven.org/wp-content/uploads/2017/09/toolkit1.jpg
+3,TST-123,Fail 1,This is a description test,,https://projuven.org/wp-content/uploads/2017/09/toolkit1.jpg
+4,Not fitting pattern,Fail 1,This is a description test,This is an assembly note test,https://projuven.org/wp-content/uploads/2017/09/toolkit1.jpg
+5,TST-123,More than 100 characters 67890123456789012345678901234567890123456789012345678901234567890123456789012345,This is a description test,This is an assembly note tes,https://projuven.org/wp-content/uploads/2017/09/toolkit1.jpg
+6,TST-123,Fail 1,More than 256 characters 6789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890,This is an assembly note test,https://projuven.org/wp-content/uploads/2017/09/toolkit1.jpg
+7,TST-123,Fail 1,This is a description test,More than 256 characters 6789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890,https://projuven.org/wp-content/uploads/2017/09/toolkit1.jpg
+8,TST-123,Fail 1,This is a description test,This is an assembly note test,Not fitting pattern

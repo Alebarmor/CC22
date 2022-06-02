@@ -1,0 +1,2 @@
+timestamp,test-class,test-method,time,description,result
+"2022-04-24 21:15:26.615","acme.testing.FavouriteLinkTest","favouriteLink",33226,""favouriteLink()"","OK"

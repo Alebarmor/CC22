@@ -1,0 +1,12 @@
+recordIndex,name,itemType,code,technology,description,retailPrice,optionalLink
+0,,TOOL,,,,,
+0,more than 100 char. more than 100 char. more than 100 char. more than 100 char. more than 100 char!!!!!,TOOL,ABC-001,Technology,Sample,EUR 123.13,
+0,Tool,TOOL,ABC-001,more than 100 char. more than 100 char. more than 100 char. more than 100 char. more than 100 char!!!!!,Sample,EUR 123.13,
+0,Tool,TOOL,ABC-001,Technology,more than 255 char.more than 255 char.more than 255 char. more than 255 char. more than 255 char. more than 255 char. more than 255 char. more than 255 char. more than 255 char. more than 255 char. more than 255 char. more than 255 char. more than 255 char. more than 255 char,EUR 123.13,
+0,Tool,TOOL,ABC-001,Technology,Sample,not number,
+0,Tool,TOOL,ABC-001,Technology,Sample,3457,
+0,Tool,TOOL,ABC-001,Technology,Sample,USD -900,
+0,Tool,TOOL,ABC-001,Technology,Sample,XXX 90,
+0,Tool,TOOL,ABC-001,Technology,Sample,EUR 123.13,not a link
+0,Tool,TOOL,Not Pattern,Technology,Sample,EUR 123.13,
+0,Tool,TOOL,AAA-000,Technology,Sample,EUR 123.13,

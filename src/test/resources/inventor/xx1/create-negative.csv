@@ -1,0 +1,19 @@
+code,item,xx3,xx4,xx51,xx52,xx6,xx7
+"",ABC-111-B,,,,,,
+"",ABC-111-B,Prueba,Prueba,2025/05/01 00:00,2025/05/08 00:00,EUR 15.00,https://www.twitch.tv
+55426,ABC-111-B,Prueba,Prueba,2025/05/01 00:00,2025/05/08 00:00,EUR 15.00,https://www.twitch.tv
+452,ABC-111-B,Prueba,Prueba,2025/05/01 00:00,2025/05/08 00:00,EUR 15.00,https://www.twitch.tv
+0012,ABC-111-B,,Prueba,2025/05/01 00:00,2025/05/08 00:00,EUR 15.00,https://www.twitch.tv
+0012,ABC-111-B,101 caracteres101 caracteres101 caracteres101 caracteres101 caracteres101 caracteres101 caracteres101,Prueba,2025/05/01 00:00,2025/05/08 00:00,EUR 15.00,https://www.twitch.tv
+0012,ABC-111-B,Prueba con sexo y nigeria spam,Prueba,2025/05/01 00:00,2025/05/08 00:00,EUR 15.00,https://www.twitch.tv
+0012,ABC-111-B,Prueba,,2025/05/01 00:00,2025/05/08 00:00,EUR 15.00,https://www.twitch.tv
+0012,ABC-111-B,Prueba,256 caracteres256 caracteres256 caracteres256 caracteres256 caracteres256 caracteres256 caracteres256 caracteres256 caracteres256 caracteres256 caracteres256 caracteres256 caracteres256 caracteres256 caracteres256 caracteres256 caracteres256 caracteres256c,2025/05/01 00:00,2025/05/08 00:00,EUR 15.00,https://www.twitch.tv
+0012,ABC-111-B,Prueba,Esto tiene mucho nigeria y sexo,2025/05/01 00:00,2025/05/08 00:00,EUR 15.00,https://www.twitch.tv
+0012,ABC-111-B,Prueba,Prueba,,2025/05/08 00:00,EUR 15.00,https://www.twitch.tv
+0012,ABC-111-B,Prueba,Prueba,2020/05/01 00:00,2025/05/08 00:00,EUR 15.00,https://www.twitch.tv
+0012,ABC-111-B,Prueba,Prueba,2025/05/01 00:00,,EUR 15.00,https://www.twitch.tv
+0012,ABC-111-B,Prueba,Prueba,2025/05/01 00:00,2025/05/07 23:59,EUR 15.00,https://www.twitch.tv
+0012,ABC-111-B,Prueba,Prueba,2025/05/01 00:00,2025/05/08 00:00,,https://www.twitch.tv
+0012,ABC-111-B,Prueba,Prueba,2025/05/01 00:00,2025/05/08 00:00,XXX 15.00,https://www.twitch.tv
+0012,ABC-111-B,Prueba,Prueba,2025/05/01 00:00,2025/05/08 00:00,EUR -15.00,https://www.twitch.tv
+0012,ABC-111-B,Prueba,Prueba,2025/05/01 00:00,2025/05/08 00:00,EUR 15.00,esto no es un link

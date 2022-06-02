@@ -1,0 +1,5 @@
+recordIndex,name,itemType,code,technology,description,retailPrice,optionalLink
+0,a1,COMPONENT,MNB-098,Technology 02,Sample Component,EUR 16.00,
+1,aa2,TOOL,ABC-654,Technology 01,Sample Tool,USD 123.13,
+2,aaa3,COMPONENT,HGF-456-A,Technology 03,Sample Component,EUR 15.50,https://en.wikipedia.org/wiki/Component
+3,aaaa4,TOOL,TFC-741-B,Technology 01,Sample Tool,USD 987.77,https://es.wikipedia.org/wiki/Tool

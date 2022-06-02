@@ -1,0 +1,31 @@
+inventor.xx1.list.label.code = Code
+inventor.xx1.list.label.xx3 = Xx3
+inventor.xx1.list.label.item = Item
+
+inventor.xx1.list.button.create = Create
+
+inventor.xx1.form.label.code = Code:
+inventor.xx1.form.label.xx2 = Xx2:
+inventor.xx1.form.label.xx3 = Xx3:
+inventor.xx1.form.label.xx4 = Xx4:
+inventor.xx1.form.label.xx51 = Xx51:
+inventor.xx1.form.label.xx52 = Xx52:
+inventor.xx1.form.label.xx6 = Xx6:
+inventor.xx1.form.label.xx7 = Xx7:
+inventor.xx1.form.label.item = Tool:
+
+inventor.xx1.form.button.update = Update
+inventor.xx1.form.button.delete = Delete
+inventor.xx1.form.button.create = Create
+
+inventor.xx1.form.error.code-date = The date is not current
+inventor.xx1.form.error.code-regex = The code must be the current date XXP (yy-mm-dd) followed by a ":" and four numbers
+inventor.xx1.form.error.not-unique = The code is not unique
+inventor.xx1.form.error.spam = This text is a spam text
+inventor.xx1.form.error.start-period-not-enough = The date must be at least one month after the creation date
+inventor.xx1.form.error.end-period-one-week-before-start-period = The date must be at least one week after the start date
+inventor.xx1.form.error.incorrect-currency = This currency is not avalaible in the system
+inventor.xx1.form.error.negative-budget = The budget must not be negative
+inventor.xx1.form.error.item-null = There must be one item
+inventor.xx1.form.error.item-does-not-exist = This item doesn't exist
+inventor.xx1.form.error.item-not-available = No tools available

@@ -1,0 +1,11 @@
+timestamp,test-class,test-method,time,description,result
+"2022-04-30 20:01:55.861","acme.testing.any.chirp.AnyChirpListAllTest","positiveTest",6139,""[1] recordIndex=0, creationMoment=2022/04/02 12:00, title=Title 12, author=Author 12, body=Body 12, email=email@12.com"","OK"
+"2022-04-30 20:02:16.135","acme.testing.any.chirp.AnyChirpCreateTest","positiveTest",16254,""[1] recordIndex=3, title=Title, author=author, body=body, email=null, confirmation=true"","OK"
+"2022-04-30 20:02:25.667","acme.testing.any.chirp.AnyChirpCreateTest","negativeTest",7993,""[1] recordIndex=0, title=null, author=author, body=body, email=null, confirmation=true"","OK"
+"2022-04-30 20:02:33.132","acme.testing.any.chirp.AnyChirpCreateTest","negativeTest",6447,""[2] recordIndex=0, title=title, author=null, body=body, email=null, confirmation=true"","OK"
+"2022-04-30 20:02:41.844","acme.testing.any.chirp.AnyChirpCreateTest","negativeTest",7448,""[3] recordIndex=0, title=title, author=author, body=null, email=null, confirmation=true"","OK"
+"2022-04-30 20:02:50.522","acme.testing.any.chirp.AnyChirpCreateTest","negativeTest",7287,""[4] recordIndex=0, title=texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto, author=autor, body=body, email=null, confirmation=true"","OK"
+"2022-04-30 20:02:58.522","acme.testing.any.chirp.AnyChirpCreateTest","negativeTest",7019,""[5] recordIndex=0, title=title, author=texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto, body=body, email=null, confirmation=true"","OK"
+"2022-04-30 20:03:06.932","acme.testing.any.chirp.AnyChirpCreateTest","negativeTest",7173,""[6] recordIndex=0, title=title, author=author, body=texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto, email=null, confirmation=true"","OK"
+"2022-04-30 20:03:14.14","acme.testing.any.chirp.AnyChirpCreateTest","negativeTest",6296,""[7] recordIndex=0, title=title, author=author, body=body, email=null, confirmation=false"","OK"
+"2022-04-30 20:03:15.133","acme.testing.any.chirp.AnyChirpCreateTest","hackingTest",2,""hackingTest()"","OK"
