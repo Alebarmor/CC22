@@ -883,11 +883,11 @@ Xx1
 --
 + code: String {regexp = "XXP", unique}
 + xx2: Date {NotNull, Past}
-+ xx3: String {NotBlank, Length(max = 100)}
-+ xx4: String {NotBlank, Length(max = 255)}
++ xx3: String {NotBlank, Length(min = 1, max = 100)}
++ xx4: String {NotBlank, Length(min = 1, max = 255)}
 + xx51: Date {NotNull}
 + xx52: Date {NotNull}
-+ xx6: Money {NotNull, Positive}
++ xx6: Money {NotNull, Valid}
 + xx7: String {URL}
 bg=green</panel_attributes>
     <additional_attributes/>
@@ -895,59 +895,59 @@ bg=green</panel_attributes>
   <element>
     <id>UMLNote</id>
     <coordinates>
-      <x>648</x>
-      <y>152</y>
-      <w>184</w>
-      <h>40</h>
+      <x>960</x>
+      <y>252</y>
+      <w>168</w>
+      <h>60</h>
     </coordinates>
-    <panel_attributes>El xx52 debe de 
-ser una posterior al startPerior
+    <panel_attributes>El xx52 debe ser
+una posterior al xx51
 bg=blue</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>UMLNote</id>
     <coordinates>
-      <x>480</x>
-      <y>160</y>
-      <w>160</w>
-      <h>56</h>
+      <x>720</x>
+      <y>240</y>
+      <w>216</w>
+      <h>72</h>
     </coordinates>
     <panel_attributes>El xx51 debe de ser,
 al menos, un mes posterior
-a la creación
+a la creación del xx1
 bg=blue</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>664</x>
-      <y>184</y>
-      <w>24</w>
-      <h>104</h>
+      <x>1020</x>
+      <y>300</y>
+      <w>48</w>
+      <h>132</h>
     </coordinates>
     <panel_attributes>lt=.</panel_attributes>
-    <additional_attributes>10.0;110.0;10.0;10.0</additional_attributes>
+    <additional_attributes>10.0;90.0;20.0;10.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>584</x>
-      <y>208</y>
-      <w>64</w>
-      <h>80</h>
+      <x>840</x>
+      <y>300</y>
+      <w>132</w>
+      <h>132</h>
     </coordinates>
     <panel_attributes>lt=.</panel_attributes>
-    <additional_attributes>10.0;10.0;10.0;50.0;60.0;50.0;60.0;80.0</additional_attributes>
+    <additional_attributes>10.0;10.0;90.0;90.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>576</x>
-      <y>416</y>
-      <w>120</w>
-      <h>88</h>
+      <x>864</x>
+      <y>624</y>
+      <w>180</w>
+      <h>132</h>
     </coordinates>
     <panel_attributes>lt=-&gt;
 m1=0..n
@@ -958,39 +958,66 @@ invented by v</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>512</x>
-      <y>336</y>
-      <w>120</w>
-      <h>40</h>
+      <x>768</x>
+      <y>504</y>
+      <w>168</w>
+      <h>60</h>
     </coordinates>
     <panel_attributes>lt=-&gt;
 m1=1
 m2=0..1
 has a &gt;</panel_attributes>
-    <additional_attributes>130.0;20.0;10.0;20.0</additional_attributes>
+    <additional_attributes>120.0;20.0;10.0;20.0</additional_attributes>
   </element>
   <element>
     <id>UMLNote</id>
     <coordinates>
-      <x>752</x>
-      <y>200</y>
-      <w>120</w>
-      <h>40</h>
+      <x>1140</x>
+      <y>240</y>
+      <w>84</w>
+      <h>84</h>
     </coordinates>
-    <panel_attributes>Los String no pueden
-contener spam
+    <panel_attributes>xx3 y xx4
+no deben
+ser textos
+spam
 bg=blue</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>800</x>
-      <y>232</y>
-      <w>24</w>
-      <h>56</h>
+      <x>1164</x>
+      <y>312</y>
+      <w>48</w>
+      <h>120</h>
     </coordinates>
     <panel_attributes>lt=.</panel_attributes>
-    <additional_attributes>10.0;50.0;10.0;10.0</additional_attributes>
+    <additional_attributes>10.0;80.0;20.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLNote</id>
+    <coordinates>
+      <x>1236</x>
+      <y>240</y>
+      <w>84</w>
+      <h>72</h>
+    </coordinates>
+    <panel_attributes>El xx6
+debe ser
+positivo
+bg=blue</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1248</x>
+      <y>300</y>
+      <w>48</w>
+      <h>132</h>
+    </coordinates>
+    <panel_attributes>lt=.</panel_attributes>
+    <additional_attributes>10.0;90.0;20.0;10.0</additional_attributes>
   </element>
 </diagram>
