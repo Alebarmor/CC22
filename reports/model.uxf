@@ -965,7 +965,7 @@ invented by v</panel_attributes>
     </coordinates>
     <panel_attributes>lt=-&gt;
 m1=1
-m2=1
+m2=0..1
 has a &gt;</panel_attributes>
     <additional_attributes>130.0;20.0;10.0;20.0</additional_attributes>
   </element>
