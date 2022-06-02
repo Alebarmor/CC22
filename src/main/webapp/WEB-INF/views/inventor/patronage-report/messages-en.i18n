@@ -1,0 +1,21 @@
+inventor.patronage-report.list.label.sequence-number = Sequence Number
+inventor.patronage-report.list.label.creation-moment = Creation Moment
+
+inventor.patronage-report.list.button.create = Create
+
+inventor.patronage-report.form.label.sequence-number = Sequence Number:
+inventor.patronage-report.form.label.creation-moment = Creation Moment:
+inventor.patronage-report.form.label.code = Patronage's code:
+inventor.patronage-report.form.label.memorandum = Memorandum:
+inventor.patronage-report.form.label.link = Link with further information:
+inventor.patronage-report.form.label.confirmation = Creation's confirmation:
+
+inventor.patronage-report.form.button.create = Create
+
+inventor.patronage-report.form.error.code-null = Code of the patronage must not be null. There must be one patronage
+inventor.patronage-report.form.error.code-does-not-exist = The code you typed corresponds to a non-existing patronage. Please, try again
+inventor.patronage-report.form.error.code-forbidden = The patronage you request is not one of yours
+inventor.patronage-report.form.error.code-not-published = The patronage you request is not published yet
+inventor.patronage-report.form.error.code-9999 = This patronage has the maximum number of reports (9999)
+inventor.patronage-report.form.error.confirmation = This report cannot be updated or deleted, which is why you need to confirm its creation
+inventor.patronage-report.form.error.spam = This text is a spam text

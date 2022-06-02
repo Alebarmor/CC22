@@ -1,0 +1,4 @@
+key,sequenceNumber,creationMoment,memorandum,link,key:patronage
+patronage-report-11,ABC-123-B:0002,2022/02/01 00:10,Comienzo de las negociaciones,https://www.twitch.tv,patronage-02
+patronage-report-12,ABC-123-B:0001,2022/02/01 00:05,Acuerdos puestos sobre la mesa,https://www.twitch.tv,patronage-02
+patronage-report-13,ABC-123-C:0001,2022/02/01 00:10,Cierre de la negociación,https://www.twitch.tv,patronage-03

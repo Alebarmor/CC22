@@ -1,0 +1,31 @@
+patron.xx1.list.label.code = Código
+patron.xx1.list.label.xx3 = Xe3
+patron.xx1.list.label.item = Item
+
+patron.xx1.list.button.create = Crear
+
+patron.xx1.form.label.code = Código:
+patron.xx1.form.label.xx2 = Xe2:
+patron.xx1.form.label.xx3 = Xe3:
+patron.xx1.form.label.xx4 = Xe4:
+patron.xx1.form.label.xx51 = Xe51:
+patron.xx1.form.label.xx52 = Xe52:
+patron.xx1.form.label.xx6 = Xe6:
+patron.xx1.form.label.xx7 = Xe7:
+patron.xx1.form.label.item = Herramienta:
+
+patron.xx1.form.button.update = Actualizar
+patron.xx1.form.button.delete = Borrar
+patron.xx1.form.button.create = Crear
+
+patron.xx1.form.error.code-date = La fecha no es la actual
+patron.xx1.form.error.regex = El código debe ser la fecha actual XXP (yy-mm-dd) seguido de un ":" y cuatro números
+patron.xx1.form.error.not-unique = El código no es único
+patron.xx1.form.error.spam = Este texto es un texto spam
+patron.xx1.form.error.start-period-not-enough = La fecha debe ser al menos un mes después de la fecha de creación
+patron.xx1.form.error.end-period-one-week-before-start-period = La fecha debe ser al menos una semana después de la fecha de inicio
+patron.xx1.form.error.incorrect-currency = Esta divisa no está disponible en el sistema
+patron.xx1.form.error.negative-budget = El presupuesto no debe ser negativo
+patron.xx1.form.error.item-null = Debe de haber un item
+patron.xx1.form.error.item-does-not-exist = El item no existe
+inventor.xx1.form.error.item-not-available = No quedan herramientas disponibles

@@ -1,0 +1,19 @@
+inventor.patronage.list.label.code = Código
+inventor.patronage.list.label.start-period = Comienzo del período
+inventor.patronage.list.label.end-period = Fin del período
+inventor.patronage.list.label.status = Estatus
+
+inventor.patronage.form.label.status = Estatus:
+PROPOSED = PROPUESTO
+ACCEPTED = ACEPTADO
+DENIED = DENEGADO
+inventor.patronage.form.label.code = Código:
+inventor.patronage.form.label.legal-stuff = Cosas legales:
+inventor.patronage.form.label.budget = Presupuesto:
+inventor.patronage.form.label.patron.name = Nombre del patrón:
+inventor.patronage.form.label.patron.email = Correo del patron:
+inventor.patronage.form.label.start-period = Comienzo del período:
+inventor.patronage.form.label.end-period = Fin del período:
+inventor.patronage.form.label.link = Enlace con más información:
+
+inventor.patronage.form.button.update = Actualizar

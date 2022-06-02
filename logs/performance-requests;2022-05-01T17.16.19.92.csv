@@ -1,0 +1,15 @@
+timestamp,simple-path,time
+"2022-04-30 21:47:47.222","/master/welcome",7171
+"2022-04-30 21:47:48.183","/master/welcome",858
+"2022-04-30 21:47:51.508","/master/sign-in",3237
+"2022-04-30 21:47:52.817","/master/welcome",582
+"2022-04-30 21:47:54.607","/administrator/configuration/show",1617
+"2022-04-30 21:47:56.91","/master/welcome",636
+"2022-04-30 21:47:59.527","/master/welcome",507
+"2022-04-30 21:47:59.957","/master/welcome",395
+"2022-04-30 21:48:00.596","/master/sign-in",570
+"2022-04-30 21:48:02.015","/master/welcome",581
+"2022-04-30 21:48:02.753","/administrator/configuration/show",579
+"2022-04-30 21:48:04.589","/administrator/configuration/update",585
+"2022-04-30 21:48:05.11","/master/welcome",467
+"2022-04-30 21:48:05.762","/master/welcome",572
