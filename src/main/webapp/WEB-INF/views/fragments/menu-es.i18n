@@ -1,0 +1,95 @@
+# menu-es.i18n
+#
+# Copyright (C) 2012-2022 Rafael Corchuelo.
+#
+# In keeping with the traditional purpose of furthering education and research, it is
+# the policy of the copyright owner to permit non-commercial use and redistribution of
+# this software. It has been tested carefully, but it is not guaranteed for any particular
+# purposes.  The copyright owner does not offer any warranties or representations, nor do
+# they accept any liabilities with respect to them.
+
+﻿# master.menu #################################################################
+
+master.menu.home = Inicio
+master.menu.sign-up = Registrarse
+master.menu.sign-in = Entrar
+master.menu.sign-out = Salir
+
+# master.menu.anonymous #######################################################
+
+master.menu.anonymous = Anónimo
+master.menu.anonymous.favourite-link = Enlace favorito
+master.menu.anonymous.chirp.list-recent = Ver chirps recientes
+master.menu.anonymous.item.list-all = Ver todos Items
+master.menu.anonymous.toolkit.list-all = Ver todos Toolkits
+
+# master.menu.authenticated #######################################################
+
+master.menu.authenticated = Authenticated
+master.menu.authenticated.chirp.list-recent = Ver chirps recientes
+master.menu.authenticated.item.list-all = Ver todos los Items
+master.menu.authenticated.toolkit.list-all = Ver todos Toolkits
+master.menu.authenticated.announcement.list = Ver todos los anuncios recientes
+master.menu.authenticated.configuration = Mostrar Configuracion
+master.menu.authenticated.money-exchage = Cambio de moneda
+
+# master.menu.administrator ###################################################
+
+master.menu.administrator = Administrador
+master.menu.administrator.dashboard = Panel de indicadores
+master.menu.administrator.user-accounts = Cuentas de usuario
+master.menu.administrator.populate-initial = Poblar BD (inicial)
+master.menu.administrator.populate-sample = Poblar BD (ejemplos)
+master.menu.administrator.shut-down = Parar el sistema
+master.menu.administrator.configuration = Mostrar configuracion
+master.menu.administrator.chirp.list-recent = Ver chirps recientes
+master.menu.administrator.item.list-all = Ver todos los Items
+master.menu.administrator.dashboard = Tablero de Mandos
+master.menu.administrator.announcement.create-announcement = Publicar un anuncio
+
+
+
+
+# master.menu.provider ########################################################
+
+master.menu.provider = Proveedor
+master.menu.provider.favourite-link = Enlace favorito
+
+# master.menu.consumer ##########################################################
+
+master.menu.consumer = Consumidor
+master.menu.consumer.favourite-link = Enlace favorito
+
+# master.menu.patron ##########################################################
+master.menu.patron = Patrón
+master.menu.patron.chirp.list-recent = Ver chirps recientes
+master.menu.patron.patronage.list-mine = Ver mis patrocinios
+master.menu.patron.patronage-report.list-mine = Ver los reportes de mis patrocinios
+master.menu.patron.patron-dashboard = Panel del patrón
+
+# master.menu.inventor ##########################################################
+
+master.menu.inventor = Inventor
+master.menu.inventor.chirp.list-recent = Ver chirps recientes
+master.menu.inventor.patronage.list-mine = Ver mis patrocinios
+master.menu.inventor.patronage-report.list-mine = Ver los reportes de mis patrocinios
+master.menu.inventor.toolkit.list-mine-toolkit = Ver mis kits de herramientas
+master.menu.inventor.xx1.list-mine = Ver mis xe1
+master.menu.inventor.item.list-mine = Ver mis Items
+
+# master.menu.user-account ####################################################
+
+master.menu.user-account = Cuenta
+master.menu.user-account.general-data = Datos generales
+master.menu.user-account.provider = Datos de proveedor
+master.menu.user-account.become-provider = Hazte proveedor
+master.menu.user-account.consumer = Datos de consumidor
+master.menu.user-account.become-consumer = Hazte consumidor
+master.menu.user-account.inventor = Datos de inventor
+master.menu.user-account.become-inventor = Hazte inventor
+master.menu.user-account.patron = Datos de patron
+master.menu.user-account.become-patron = Hazte patron
+
+# master.menu.any ###############################################################
+
+master.menu.any.user-account.list = Ver las cuentas de usuario

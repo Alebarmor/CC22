@@ -1,0 +1,97 @@
+# menu-en.i18n
+#
+# Copyright (C) 2012-2022 Rafael Corchuelo.
+#
+# In keeping with the traditional purpose of furthering education and research, it is
+# the policy of the copyright owner to permit non-commercial use and redistribution of
+# this software. It has been tested carefully, but it is not guaranteed for any particular
+# purposes.  The copyright owner does not offer any warranties or representations, nor do
+# they accept any liabilities with respect to them.
+
+# master.menu #################################################################
+
+master.menu.home = Home
+master.menu.sign-up = Sign up
+master.menu.sign-in = Sign in
+master.menu.sign-out = Sign out
+
+# master.menu.anonymous #######################################################
+
+master.menu.anonymous = Anonymous
+master.menu.anonymous.favourite-link = Favourite link
+master.menu.anonymous.chirp.list-recent = List recent chirps
+master.menu.anonymous.item.list-all = List All Item
+master.menu.anonymous.toolkit.list-all = List All Toolkits
+
+
+# master.menu.authenticated #######################################################
+
+master.menu.authenticated = Authenticated
+master.menu.authenticated.chirp.list-recent = List recent chirps
+master.menu.authenticated.item.list-all = List all Item
+master.menu.authenticated.toolkit.list-all = List All Toolkits
+master.menu.authenticated.announcement.list = List recent announcements
+master.menu.authenticated.configuration = Show Configuration
+master.menu.authenticated.money-exchage = Money exchange
+
+# master.menu.administrator ###################################################
+
+master.menu.administrator = Administrator
+master.menu.administrator.dashboard = Dashboard
+master.menu.administrator.user-accounts = User accounts
+master.menu.administrator.populate-initial = Populate DB (initial)
+master.menu.administrator.populate-sample = Populate DB (samples)
+master.menu.administrator.shut-down = Shut down
+master.menu.administrator.configuration = Show configuration
+master.menu.administrator.chirp.list-recent = List recent chirps
+master.menu.administrator.item.list-all = List All Item
+master.menu.administrator.dashboard = Dashboard
+master.menu.administrator.announcement.create-announcement = Create Announcement
+
+
+
+
+# master.menu.provider ########################################################
+
+master.menu.provider = Provider
+master.menu.provider.favourite-link = Favourite link
+
+# master.menu.consumer ##########################################################
+
+master.menu.consumer = Consumer
+master.menu.consumer.favourite-link = Favourite link
+
+# master.menu.patron ##########################################################
+master.menu.patron = Patron
+master.menu.patron.chirp.list-recent = List recent chirps
+master.menu.patron.patronage.list-mine = List my patronages
+master.menu.patron.patronage-report.list-mine = List my patronage reports
+master.menu.patron.patron-dashboard = Patron's Dashboard
+
+# master.menu.inventor ##########################################################
+
+master.menu.inventor = Inventor
+master.menu.inventor.chirp.list-recent = List recent chirps
+master.menu.inventor.patronage.list-mine = List my patronages
+master.menu.inventor.patronage-report.list-mine = List my patronage reports
+master.menu.inventor.toolkit.list-mine-toolkit = List my Toolkits
+master.menu.inventor.xx1.list-mine = List my xx1
+master.menu.inventor.item.list-mine = List my Items
+
+
+# master.menu.user-account ####################################################
+
+master.menu.user-account = Account
+master.menu.user-account.general-data = General data
+master.menu.user-account.provider = Provider data
+master.menu.user-account.become-provider = Become a provider
+master.menu.user-account.consumer = Consumer data
+master.menu.user-account.become-consumer = Become a consumer
+master.menu.user-account.inventor = Inventor data
+master.menu.user-account.become-inventor = Become a inventor
+master.menu.user-account.patron = Patron data
+master.menu.user-account.become-patron = Become a patron
+
+# master.menu.any ###############################################################
+
+master.menu.any.user-account.list = List user accounts

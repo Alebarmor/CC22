@@ -1,0 +1,23 @@
+inventor.toolkit.form.label.code = Code:
+inventor.toolkit.form.label.title = Title:
+inventor.toolkit.form.label.description = Description:
+inventor.toolkit.form.label.assemblyNote = Assemble Notes:
+inventor.toolkit.form.label.retailPrice = Retail Price:
+inventor.toolkit.form.label.link = Optional Link:
+
+inventor.toolkit.form.button.items = Items
+inventor.toolkit.list.button.create = Create New Toolkit
+
+inventor.toolkit.list.label.code = Code
+inventor.toolkit.list.label.title = Title
+inventor.toolkit.list.label.draft = Is draft?
+
+inventor.toolkit.form.button.delete = Delete
+inventor.toolkit.form.button.update = Update
+inventor.toolkit.form.button.publish = Publish draft
+inventor.toolkit.form.button.create = Create
+
+inventor.toolkit.form.error.duplicated = There is already a Toolkit with this code
+inventor.toolkit.form.error.incorrect-title =  Title must be less than 101 characters
+inventor.toolkit.form.error.incorrect-description = Description must be less than 256 characters
+inventor.toolkit.form.error.incorrect-assemblyNote = Assembly Note must be less than 256 characters

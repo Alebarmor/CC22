@@ -1,0 +1,20 @@
+inventor.item.list.label.number = Numero de elementos
+inventor.item.list.label.item-type = Tipo de objeto 
+inventor.item.list.label.item-name = Nombre
+inventor.item.list.label.item-technology = Tecnologia
+inventor.item.list.label.item-retailPrice = Precio
+
+inventor.item.form.label.item-type ? Tipo de objeto
+
+inventor.item-toolkit.list.button.create = Asociar objeto al kit de herramientas
+
+inventor.item.form.label.number = Numero de elementos
+inventor.item.form.label.item = Objetos posibles
+
+inventor.quantity.form.button.update = Actualizar
+inventor.quantity.form.button.delete = Eliminar
+
+inventor.item-toolkit.form.button.create = Asociar objeto al kit de herramientas
+
+inventor.quantity.form.error.toolkit-has-tool = El kit de herramienta debe tener 1 herramienta
+inventor.quantity.form.error.noItem = Debes selecionar un objeto como minimo 

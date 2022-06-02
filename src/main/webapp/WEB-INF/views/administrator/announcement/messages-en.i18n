@@ -1,0 +1,10 @@
+administrator.announcement.form.label.title = Title
+administrator.announcement.form.label.status = Status
+administrator.announcement.form.label.body = Body
+administrator.announcement.form.label.link = Link
+
+administrator.announcement.form.label.confirmation = Confirm
+administrator.announcement.form.button.create = Create
+
+administrator.announcement.form.error.incorrect-title = Less than or equal to 100 characters
+administrator.announcement.form.error.incorrect-body = Less than or equal to 255 characters

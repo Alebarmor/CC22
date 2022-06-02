@@ -1,0 +1,31 @@
+patron.patronage.list.label.code = Code
+patron.patronage.list.label.start-period = Start of the period
+patron.patronage.list.label.end-period = End of the period
+patron.patronage.list.label.published = Is published?
+
+patron.patronage.list.button.create = Create
+
+patron.patronage.form.label.status = Status:
+patron.patronage.form.label.code = Code:
+patron.patronage.form.label.legal-stuff = Legal Stuff:
+patron.patronage.form.label.budget = Budget:
+patron.patronage.form.label.inventor.username = Inventor's username:
+patron.patronage.form.label.inventor.name = Inventor's name:
+patron.patronage.form.label.inventor.email = Inventor's email:
+patron.patronage.form.label.start-period = Start of the period:
+patron.patronage.form.label.end-period = End of the period:
+patron.patronage.form.label.link = Link with further information:
+
+patron.patronage.form.button.create = Create
+patron.patronage.form.button.update = Update
+patron.patronage.form.button.delete = Delete
+patron.patronage.form.button.publish = Publish
+
+patron.patronage.form.error.not-unique = The code must be unique
+patron.patronage.form.error.incorrect-currency = The currency of the budget must be one of the accepted by the system. Please, review the configuration parameters
+patron.patronage.form.error.incorrect-budget = The budget must be positive
+patron.patronage.form.error.username-null = The username of the inventor must not be null. There must be one inventor
+patron.patronage.form.error.username-does-not-exist = The username you typed corresponds to a non-existing inventor. Please, try again
+patron.patronage.form.error.start-period-not-enough = The start period needs to be, at least, one month after this moment
+patron.patronage.form.error.end-period-one-week-before-start-period = The end period needs to be, at least, one week after Start Period
+patron.patronage.form.error.spam = This text is a spam text

@@ -1,0 +1,6 @@
+recordIndex,name,type,code,technology,retailPrice,published
+0,Component 01,COMPONENT,AAA-000,inventor1,EUR 16.00,true
+1,Component 02,COMPONENT,AAA-000-A,inventor1,EUR 15.50,true
+2,Component 03,COMPONENT,BBB-111,inventor1,EUR 123.70,false
+3,Component 04,COMPONENT,BBB-111-B,inventor1,EUR 987.67,true
+4,Component 05,COMPONENT,CCC-222,inventor1,EUR 1.00,true

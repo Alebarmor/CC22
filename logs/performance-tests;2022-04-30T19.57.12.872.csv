@@ -1,0 +1,3 @@
+timestamp,test-class,test-method,time,description,result
+"2022-04-30 19:55:02.574","acme.testing.any.chirp.AnyChirpListAllTest","positiveTest",5181,""[1] recordIndex=0, creationMoment=2022/04/20 19:00, title=Title 14, author=Author 14, body=Body 14, email=email@14.com"","Expected value '2022/04/20 19:00' in attribute 0 of record 0, but found '2022/04/02 12:00'"
+"2022-04-30 19:55:06.485","acme.testing.any.chirp.AnyChirpCreateTest","hackingTest",2,""hackingTest()"","OK"

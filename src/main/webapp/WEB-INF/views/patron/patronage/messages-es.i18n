@@ -1,0 +1,34 @@
+patron.patronage.list.label.code = Código
+patron.patronage.list.label.start-period = Comienzo del período
+patron.patronage.list.label.end-period = Fin del período
+patron.patronage.list.label.published = ¿Está publicado?
+
+patron.patronage.list.button.create = Create
+
+patron.patronage.form.label.status = Estatus:
+PROPOSED = PROPUESTO
+ACCEPTED = ACEPTADO
+DENIED = DENEGADO
+patron.patronage.form.label.code = Código:
+patron.patronage.form.label.legal-stuff = Cosas legales:
+patron.patronage.form.label.budget = Presupuesto:
+patron.patronage.form.label.inventor.username = Usuario del inventor:
+patron.patronage.form.label.inventor.name = Nombre del inventor:
+patron.patronage.form.label.inventor.email = Correo del inventor:
+patron.patronage.form.label.start-period = Comienzo del período:
+patron.patronage.form.label.end-period = Fin del período:
+patron.patronage.form.label.link = Enlace con más información:
+
+patron.patronage.form.button.create = Crear
+patron.patronage.form.button.update = Actualizar
+patron.patronage.form.button.delete = Borrar
+patron.patronage.form.button.publish = Publicar
+
+patron.patronage.form.error.not-unique = El código debe de ser único
+patron.patronage.form.error.incorrect-currency = La divisa del presupuesto debe de ser una de las aceptadas por el sistema. Por favor, revise los parámetros de configuración
+patron.patronage.form.error.incorrect-budget = El presupuesto debe ser positivo
+patron.patronage.form.error.username-null = El nombre de usuario no debe ser nulo. Debe haber un inventor
+patron.patronage.form.error.username-does-not-exist = El nombre de usuario que introdujo corresponde a un inventor inexistente. Por favor, pruebe de nuevo
+patron.patronage.form.error.start-period-not-enough = El comienzo del período debe de ser, al menos, un mes después de este momento
+patron.patronage.form.error.end-period-one-week-before-start-period = El fin del período debe de ser, al menos, una semana desués del comienzo del período
+patron.patronage.form.error.spam = Este texto es un texto spam
