@@ -27,7 +27,7 @@
     
     
     
-    <wb-module deploy-name="Acme-Toolkits-1.0-1.0">
+    <wb-module deploy-name="Acme-Toolkits-22.7">
                                                                                                                                                                                                                                         
         
         
@@ -183,14 +183,14 @@
         
         
         
-        <property name="java-output-path" value="/Acme-Toolkits-1.0/target/classes"/>
+        <property name="java-output-path" value="/Acme-Toolkits/target/classes"/>
                                                         
         
         
         
         
         
-        <property name="context-root" value="Acme-Toolkits-1.0"/>
+        <property name="context-root" value="Acme-Toolkits"/>
                                                                                                                                                                                                                                     
     
     
