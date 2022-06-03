@@ -22,8 +22,8 @@
 	<description>This is a Acme-Toolkits project for the students of Design &amp; Testing.</description>
 
 	<groupId>Acme</groupId>	
-	<artifactId>Acme-Toolkits-1.0</artifactId>
-	<version>1.0</version>
+	<artifactId>Acme-Toolkits</artifactId>
+	<version>22.7</version>
 	<packaging>war</packaging>
 
 	<parent>
