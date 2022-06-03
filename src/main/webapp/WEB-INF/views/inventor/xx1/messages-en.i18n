@@ -19,7 +19,6 @@ inventor.xx1.form.button.delete = Delete
 inventor.xx1.form.button.create = Create
 
 inventor.xx1.form.error.code-date = The date is not current
-inventor.xx1.form.error.code-regex = The code must be the current date XXP (yy-mm-dd) followed by a ":" and four numbers
 inventor.xx1.form.error.not-unique = The code is not unique
 inventor.xx1.form.error.spam = This text is a spam text
 inventor.xx1.form.error.start-period-not-enough = The date must be at least one month after the creation date

@@ -3,7 +3,7 @@ patron.patronage.list.label.start-period = Comienzo del período
 patron.patronage.list.label.end-period = Fin del período
 patron.patronage.list.label.published = ¿Está publicado?
 
-patron.patronage.list.button.create = Create
+patron.patronage.list.button.create = Crear 
 
 patron.patronage.form.label.status = Estatus:
 PROPOSED = PROPUESTO

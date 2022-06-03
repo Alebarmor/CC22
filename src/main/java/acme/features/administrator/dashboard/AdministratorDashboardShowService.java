@@ -103,30 +103,6 @@ public class AdministratorDashboardShowService implements AbstractShowService<Ad
 		result.setNumberOfDeniedPatronages(numberOfDeniedPatronages);
 		result.setStatsBudgetOfStatusPatronages(statsBudgetOfStatusPatronages);
 		
-		//Xx1
-		
-		//Tool
-		final double ratioOfItemWithXx1 = this.repository.ratioOfItemWithXx1(ItemType.TOOL);
-		//Component
-		//final double ratioOfItemWithXx1 = this.repository.ratioOfItemWithXx1(ItemType.COMPONENT);
-		
-		final Map<String, Stats> statsXx6OfXx1 = new HashMap<>();
-		final List<Object[]> listStatsXx6OfXx1 = this.repository.statsXx6OfXx1();
-		
-		for (int i=0; i<listStatsXx6OfXx1.size(); i++) {
-			final Object[] arrayList = listStatsXx6OfXx1.get(i);
-			final Stats stat = new Stats();
-			stat.setAverage((Double)(arrayList[1]));
-			stat.setDeviation((Double)(arrayList[2]));
-			stat.setMinumun((Double)(arrayList[3]));
-			stat.setMaximun((Double)(arrayList[4]));
-			
-			statsXx6OfXx1.put((String)arrayList[0], stat);
-		}
-		
-		result.setRatioOfItemWithXx1(ratioOfItemWithXx1);
-		result.setStatsXx6OfXx1(statsXx6OfXx1);
-		
 		return result;
 	}
 	
@@ -143,8 +119,6 @@ public class AdministratorDashboardShowService implements AbstractShowService<Ad
 										"numberOfPropsedPatronages", 
 										"numberOfAcceptedPatronages", 
 										"numberOfDeniedPatronages", 
-										"statsBudgetOfStatusPatronages",
-										"ratioOfItemWithXx1",
-										"statsXx6OfXx1");
+										"statsBudgetOfStatusPatronages");
 	}
 }

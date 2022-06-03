@@ -1,14 +1,20 @@
 package acme.features.inventor.item;
 
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
+import acme.entities.Configuration;
 import acme.entities.items.Item;
 import acme.framework.components.models.Model;
 import acme.framework.controllers.Errors;
 import acme.framework.controllers.Request;
 import acme.framework.services.AbstractCreateService;
 import acme.roles.Inventor;
+import main.spamDetector;
 
 @Service
 public class InventorItemCreateService implements AbstractCreateService<Inventor, Item>{
@@ -84,6 +90,39 @@ public class InventorItemCreateService implements AbstractCreateService<Inventor
             	}
 			}
         	errors.state(request, isCorrect, "retailPrice", "inventor.item.form.error.incorrect-currency");
+        }
+		
+		if(!errors.hasErrors("name")) {
+        	final Configuration configuration = this.repository.findConfiguration();
+        	final String[] sp = configuration.getWeakSpamTerms().split(",");
+        	final List<String> softSpam = new ArrayList<String>(Arrays.asList(sp));
+        	final Double softThreshold = configuration.getWeakSpamThreshold();
+        	final String[] hp = configuration.getStrongSpamTerms().split(",");
+        	final List<String> hardSpam = new ArrayList<String>(Arrays.asList(hp));
+        	final Double hardThreshold = configuration.getStrongSpamThreshold();
+        	errors.state(request, !spamDetector.isSpam(entity.getName(), softSpam, softThreshold, hardSpam, hardThreshold), "name", "inventor.item.form.error.spam");
+        }
+		
+		if(!errors.hasErrors("technology")) {
+        	final Configuration configuration = this.repository.findConfiguration();
+        	final String[] sp = configuration.getWeakSpamTerms().split(",");
+        	final List<String> softSpam = new ArrayList<String>(Arrays.asList(sp));
+        	final Double softThreshold = configuration.getWeakSpamThreshold();
+        	final String[] hp = configuration.getStrongSpamTerms().split(",");
+        	final List<String> hardSpam = new ArrayList<String>(Arrays.asList(hp));
+        	final Double hardThreshold = configuration.getStrongSpamThreshold();
+        	errors.state(request, !spamDetector.isSpam(entity.getTechnology(), softSpam, softThreshold, hardSpam, hardThreshold), "technology", "inventor.item.form.error.spam");
+        }
+		
+		if(!errors.hasErrors("description")) {
+        	final Configuration configuration = this.repository.findConfiguration();
+        	final String[] sp = configuration.getWeakSpamTerms().split(",");
+        	final List<String> softSpam = new ArrayList<String>(Arrays.asList(sp));
+        	final Double softThreshold = configuration.getWeakSpamThreshold();
+        	final String[] hp = configuration.getStrongSpamTerms().split(",");
+        	final List<String> hardSpam = new ArrayList<String>(Arrays.asList(hp));
+        	final Double hardThreshold = configuration.getStrongSpamThreshold();
+        	errors.state(request, !spamDetector.isSpam(entity.getDescription(), softSpam, softThreshold, hardSpam, hardThreshold), "description", "inventor.item.form.error.spam");
         }
 	}
 

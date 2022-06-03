@@ -75,8 +75,8 @@ master.menu.inventor.chirp.list-recent = List recent chirps
 master.menu.inventor.patronage.list-mine = List my patronages
 master.menu.inventor.patronage-report.list-mine = List my patronage reports
 master.menu.inventor.toolkit.list-mine-toolkit = List my Toolkits
-master.menu.inventor.xx1.list-mine = List my xx1
 master.menu.inventor.item.list-mine = List my Items
+master.menu.inventor.xx1.list-mine = List my xx1
 
 
 # master.menu.user-account ####################################################

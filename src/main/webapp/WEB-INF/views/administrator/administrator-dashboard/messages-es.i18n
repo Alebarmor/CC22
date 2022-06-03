@@ -11,9 +11,6 @@ administrator.dashboard.form.label.denied-patronages = Patrocinios Denegados
 administrator.dashboard.form.label.status = Estado
 administrator.dashboard.form.label.number-patronages = Numero de Patronicios
 
-administrator.dashboard.form.title.xx1 = Xe1
-administrator.dashboard.form.label.ratio = Ratio
-
 administrator.dashboard.form.title.stats = Estadísticas
 administrator.dashboard.form.label.technology= Tecnología
 administrator.dashboard.form.label.currency = Divisa
@@ -21,5 +18,3 @@ administrator.dashboard.form.label.average-value = Media
 administrator.dashboard.form.label.deviation-value = Desviación
 administrator.dashboard.form.label.minimum-value= Mínimo
 administrator.dashboard.form.label.maximum-value = Máximo
-
-

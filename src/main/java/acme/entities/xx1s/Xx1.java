@@ -35,7 +35,7 @@ public class Xx1 extends AbstractEntity{
 	
 	@NotBlank
 	@Column(unique = true) //XXP
-	@Pattern(regexp = "^\\d{2}\\-(0?[1-9]|1[012])\\-(0?[1-9]|[12][0-9]|3[01]):[0-9]{4}$", message = "inventor.xx1.form.error.code-regex")
+	@Pattern(regexp = "^\\d{2}\\-(0?[1-9]|1[012])\\-(0?[1-9]|[12][0-9]|3[01]):[0-9]{4}$", message = "The code must be the current date XXP (yy-mm-dd) followed by a \":\" and four numbers")
 	/*
 	Este code es la fechade creación (yy-mm-dd) y ":0000" cuatro numeros
 	Se ha puesto esto, porque la fecha ira si o si en el pattern, y es obvio que

@@ -1,14 +1,20 @@
 package acme.features.inventor.toolkit;
 
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
+import acme.entities.Configuration;
 import acme.entities.toolkits.Toolkit;
 import acme.framework.components.models.Model;
 import acme.framework.controllers.Errors;
 import acme.framework.controllers.Request;
 import acme.framework.services.AbstractCreateService;
 import acme.roles.Inventor;
+import main.spamDetector;
 
 @Service
 public class InventorToolkitCreateService implements AbstractCreateService<Inventor, Toolkit>{
@@ -70,18 +76,37 @@ public class InventorToolkitCreateService implements AbstractCreateService<Inven
 		}
 		
 		if (!errors.hasErrors("title")) {
-			errors.state(request, entity.getTitle().length()<101, "title", "inventor.toolkit.form.error.incorrect-title");
-		
-		}
+			final Configuration configuration = this.repository.findConfiguration();
+        	final String[] sp = configuration.getWeakSpamTerms().split(",");
+        	final List<String> softSpam = new ArrayList<String>(Arrays.asList(sp));
+        	final Double softThreshold = configuration.getWeakSpamThreshold();
+        	final String[] hp = configuration.getStrongSpamTerms().split(",");
+        	final List<String> hardSpam = new ArrayList<String>(Arrays.asList(hp));
+        	final Double hardThreshold = configuration.getStrongSpamThreshold();
+        	errors.state(request, !spamDetector.isSpam(entity.getTitle(), softSpam, softThreshold, hardSpam, hardThreshold), "title", "inventor.toolkit.form.error.spam");
+        }
 		
 		if (!errors.hasErrors("description")) {
-			errors.state(request, entity.getDescription().length()<256, "description", "inventor.toolkit.form.error.incorrect-description");
-		
-		}
+			final Configuration configuration = this.repository.findConfiguration();
+        	final String[] sp = configuration.getWeakSpamTerms().split(",");
+        	final List<String> softSpam = new ArrayList<String>(Arrays.asList(sp));
+        	final Double softThreshold = configuration.getWeakSpamThreshold();
+        	final String[] hp = configuration.getStrongSpamTerms().split(",");
+        	final List<String> hardSpam = new ArrayList<String>(Arrays.asList(hp));
+        	final Double hardThreshold = configuration.getStrongSpamThreshold();
+        	errors.state(request, !spamDetector.isSpam(entity.getDescription(), softSpam, softThreshold, hardSpam, hardThreshold), "description", "inventor.toolkit.form.error.spam");
+        }
 		
 		if (!errors.hasErrors("assemblyNote")) {
-		errors.state(request, entity.getAssemblyNote().length()<256, "assemblyNote", "inventor.toolkit.form.error.incorrect-assemblyNote");
-		}
+			final Configuration configuration = this.repository.findConfiguration();
+        	final String[] sp = configuration.getWeakSpamTerms().split(",");
+        	final List<String> softSpam = new ArrayList<String>(Arrays.asList(sp));
+        	final Double softThreshold = configuration.getWeakSpamThreshold();
+        	final String[] hp = configuration.getStrongSpamTerms().split(",");
+        	final List<String> hardSpam = new ArrayList<String>(Arrays.asList(hp));
+        	final Double hardThreshold = configuration.getStrongSpamThreshold();
+        	errors.state(request, !spamDetector.isSpam(entity.getAssemblyNote(), softSpam, softThreshold, hardSpam, hardThreshold), "assemblyNote", "inventor.toolkit.form.error.spam");
+        }
 	}
 
 	@Override
