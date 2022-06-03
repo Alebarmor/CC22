@@ -1,0 +1,2 @@
+recordIndex,status,code,legalStuff,budget,username,fullName,email,startPeriod,endPeriod,link,isPublished
+0,PROPOSED,ABC-123-A,Nueva funcionalidad de Twitch,"USD 10,000.00",inventor1,"Number One, Inventor",inventor1@acme.com,2024/01/01 00:00,2024/03/01 00:00,https://www.twitch.tv,false

@@ -11,9 +11,6 @@ administrator.dashboard.form.label.denied-patronages = Denied Patronages
 administrator.dashboard.form.label.status = Status
 administrator.dashboard.form.label.number-patronages = Number of Patronages
 
-administrator.dashboard.form.title.xx1 = Xx1
-administrator.dashboard.form.label.ratio = Ratio
-
 administrator.dashboard.form.title.stats = Stats
 administrator.dashboard.form.label.technology= Technology
 administrator.dashboard.form.label.currency = Currency

@@ -1,0 +1,4 @@
+timestamp,test-class,test-method,time,description,result
+"2022-06-03 11:55:12.928","acme.testing.inventor.xx1.InventorXx1CreateTest","negativeTest",11167,""[1] code=, items=CCC-222-C, xx3=null, xx4=null, xx51=null, xx52=null, xx6=null, xx7=null"","OK"
+"2022-06-03 11:55:21.842","acme.testing.inventor.xx1.InventorXx1CreateTest","negativeTest",8593,""[2] code=, items=CCC-222-C, xx3=Prueba, xx4=Prueba, xx51=2025/05/01 00:00, xx52=2025/05/08 00:00, xx6=EUR 15.00, xx7=https://www.twitch.tv"","OK"
+"2022-06-03 11:55:30.65","acme.testing.inventor.xx1.InventorXx1CreateTest","negativeTest",8511,""[3] code=55426, items=CCC-222-C, xx3=Prueba, xx4=Prueba, xx51=2025/05/01 00:00, xx52=2025/05/08 00:00, xx6=EUR 15.00, xx7=https://www.twitch.tv"","OK"

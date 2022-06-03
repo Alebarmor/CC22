@@ -16,7 +16,6 @@ import acme.framework.components.models.Model;
 import acme.framework.controllers.Errors;
 import acme.framework.controllers.Request;
 import acme.framework.services.AbstractCreateService;
-import acme.roles.Inventor;
 import acme.roles.Patron;
 import main.spamDetector;
 
@@ -25,6 +24,7 @@ public class PatronPatronageCreateService implements AbstractCreateService<Patro
 	
 	@Autowired
 	protected PatronPatronageRepository repository;
+	
 	 
 	@Override
 	public boolean authorise(final Request<Patronage> request) {
@@ -41,13 +41,10 @@ public class PatronPatronageCreateService implements AbstractCreateService<Patro
         assert entity != null;
         assert errors != null;
         
+        entity.setInventor(this.repository.findOneInventorById(request.getModel().getInteger("username")));
+        
         request.bind(entity, errors, "code", "legalStuff", "budget", "startPeriod", "endPeriod", "link");
-        
-        final String username = request.getModel().getString("username");
-        
-        final Inventor inventor = this.repository.findOneInventorByUsername(username);
-        entity.setInventor(inventor);
-		
+        		
 	}
 	
 	@Override
@@ -76,15 +73,7 @@ public class PatronPatronageCreateService implements AbstractCreateService<Patro
         if(!errors.hasErrors("budget")) {
         	errors.state(request, entity.getBudget().getAmount() >= 0.0, "budget", "patron.patronage.form.error.negative-budget");
         }
-        
-        if(!errors.hasErrors("username")) {
-        	final String username = request.getModel().getString("username");
-        	final Inventor inventor = this.repository.findOneInventorByUsername(username);
-        	errors.state(request, !username.equals(""), "username", "patron.patronage.form.error.username-null");
-        	if (!username.equals("")) {
-        		errors.state(request, inventor != null, "username", "patron.patronage.form.error.username-does-not-exist");
-        	}
-        }
+
         
         if(!errors.hasErrors("startPeriod")) {
         	final Date startPeriod = entity.getStartPeriod();
@@ -120,8 +109,11 @@ public class PatronPatronageCreateService implements AbstractCreateService<Patro
 		assert entity != null;
 		assert model != null;
 		
+		
 		request.unbind(entity, model, "code", "legalStuff", "budget", "startPeriod", "endPeriod", "link");
 		
+		model.setAttribute("inventors", this.repository.findAllInventors());
+
 	}
 	
 	@Override

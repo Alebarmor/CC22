@@ -35,26 +35,7 @@ public class Xx1 extends AbstractEntity{
 	
 	@NotBlank
 	@Column(unique = true) //XXP
-	@Pattern(regexp = "^\\d{2}\\-(0?[1-9]|1[012])\\-(0?[1-9]|[12][0-9]|3[01]):[0-9]{4}$", message = "inventor.xx1.form.error.code-regex")
-	/*
-	Este code es la fechade creación (yy-mm-dd) y ":0000" cuatro numeros
-	Se ha puesto esto, porque la fecha ira si o si en el pattern, y es obvio que
-	tendra que ir tambien algun tipo de secuencia numerica por si se quieren
-	crear mas XX1 en un mismo dia. Si se pide que los años se pongan con
-	4 digitos, cambiad el d{2} del principio por un d{4}. Si se tiene que cambiar
-	el orden de la fecha o de lo que sea, basta con mover los campos y
-	cambiarlos de sitio (vienen separados por un guion, excepto los 4
-	numero del final, que vienen separados por un ':'). En el caso de que
-	en vez de numeros (lo que esta al final) tengais que poner letras,
-	mirad el code de los patronage, que son tres letras (creo que en
-	mayuscula), un guion, tres numero, y, opcionalmente, un guion y
-	una letra (tambien en mayuscula). No solo puede que la secuencia
-	numerica sean 4 numeros, sino que puede que sea como patronage: una
-	secuencia que se incremente automaticamente con cada xx1 que salga.
-	En ese caso, mirar el caso de patronage report, sobretodo el create service,
-	donde se asigna automaticamente una secuencia, pero adaptandola a lo nuestro.
-	p.d. no pongo tildes que se buguea xd
-	*/
+	@Pattern(regexp = "^\\d{2}\\-(0?[1-9]|1[012])\\-(0?[1-9]|[12][0-9]|3[01]):[0-9]{4}$", message = "The code must be the current date XXP (yy-mm-dd) followed by a \":\" and four numbers")
 	protected String code; //Code
 	
 	@Temporal(TemporalType.TIMESTAMP)

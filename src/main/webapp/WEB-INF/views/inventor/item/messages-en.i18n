@@ -21,6 +21,7 @@ inventor.item.form.label.fullname = Inventor's Fullname
 inventor.item.form.error.incorrect-name = Name must be less than 101
 inventor.item.form.error.incorrect-technology = Technology must be less than 101
 inventor.item.form.error.incorrect-description = Description must be less than 256
+inventor.item.form.error.spam = Exceeds the Spam threshold
 
 
 inventor.item.form.button.create = Create

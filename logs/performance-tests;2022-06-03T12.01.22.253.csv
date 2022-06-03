@@ -1,0 +1,2 @@
+timestamp,test-class,test-method,time,description,result
+"2022-06-03 12:00:58.804","acme.testing.inventor.xx1.InventorXx1CreateTest","negativeTest",30587,""[1] code=, items=CCC-222-C, xx3=null, xx4=null, xx51=null, xx52=null, xx6=null, xx7=null"","OK"

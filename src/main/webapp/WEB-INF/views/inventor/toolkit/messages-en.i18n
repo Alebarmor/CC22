@@ -21,3 +21,4 @@ inventor.toolkit.form.error.duplicated = There is already a Toolkit with this co
 inventor.toolkit.form.error.incorrect-title =  Title must be less than 101 characters
 inventor.toolkit.form.error.incorrect-description = Description must be less than 256 characters
 inventor.toolkit.form.error.incorrect-assemblyNote = Assembly Note must be less than 256 characters
+inventor.toolkit.form.error.spam = Exceeds the Spam threshold

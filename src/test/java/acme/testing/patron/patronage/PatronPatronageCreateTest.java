@@ -23,7 +23,6 @@ public class PatronPatronageCreateTest extends TestHarness {
 		super.fillInputBoxIn("code", code);
 		super.fillInputBoxIn("legalStuff", legalStuff);
 		super.fillInputBoxIn("budget", budget);
-		super.fillInputBoxIn("username", username);
 		super.fillInputBoxIn("startPeriod", startPeriod);
 		super.fillInputBoxIn("endPeriod", endPeriod);
 		super.fillInputBoxIn("link", link);
@@ -44,9 +43,6 @@ public class PatronPatronageCreateTest extends TestHarness {
 		super.checkInputBoxHasValue("code", code);
 		super.checkInputBoxHasValue("legalStuff", legalStuff);
 		super.checkInputBoxHasValue("budget", budget);
-		super.checkInputBoxHasValue("username", username);
-		super.checkInputBoxHasValue("fullName", fullName);
-		super.checkInputBoxHasValue("email", email);
 		super.checkInputBoxHasValue("startPeriod", startPeriod);
 		super.checkInputBoxHasValue("endPeriod", endPeriod);
 		super.checkInputBoxHasValue("link", link);
@@ -68,7 +64,6 @@ public class PatronPatronageCreateTest extends TestHarness {
 		super.fillInputBoxIn("code", code);
 		super.fillInputBoxIn("legalStuff", legalStuff);
 		super.fillInputBoxIn("budget", budget);
-		super.fillInputBoxIn("username", username);
 		super.fillInputBoxIn("startPeriod", startPeriod);
 		super.fillInputBoxIn("endPeriod", endPeriod);
 		super.fillInputBoxIn("link", link);

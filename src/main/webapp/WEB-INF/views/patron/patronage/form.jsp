@@ -18,15 +18,19 @@
     		<acme:input-textbox code="patron.patronage.form.label.code" path="code"/>
     	</jstl:when>
     	<jstl:when test="${acme:anyOf(command, 'show, update, delete, publish')}">
-    		<acme:input-textbox code="patron.patronage.form.label.code" path="code" readonly="${true}"/>
+    		<acme:input-textbox code="patron.patronage.form.label.code" path="code"/>
     	</jstl:when>
     </jstl:choose>
     <acme:input-textarea code="patron.patronage.form.label.legal-stuff" path="legalStuff"/>
     <acme:input-money code="patron.patronage.form.label.budget" path="budget"/>
     <jstl:choose>
     	<jstl:when test="${command == 'create'}">		
-	    	<acme:input-textbox code="patron.patronage.form.label.inventor.username" path="username"/>
-	    </jstl:when>
+			<acme:input-select code="patron.patronage.form.label.inventor.username" path="username">
+				<jstl:forEach items="${inventors}" var="inventor">
+					<acme:input-option code="${inventor.getUserAccount().getUsername()}" value="${inventor.getId()}" selected="${inventor.getId() == username }"/>
+				</jstl:forEach>
+			</acme:input-select>
+		</jstl:when>
 	    <jstl:when test="${acme:anyOf(command, 'show, update, delete, publish')}">
 	    	<acme:input-textbox code="patron.patronage.form.label.inventor.username" path="username" readonly="${true}"/>
 	    	<acme:input-textbox code="patron.patronage.form.label.inventor.name" path="fullName" readonly="${true}"/>

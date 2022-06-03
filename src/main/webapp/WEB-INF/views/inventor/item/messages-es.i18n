@@ -21,6 +21,7 @@ inventor.item.form.label.fullname = Nombre del Inventor
 inventor.item.form.error.incorrect-name = Nombre tiene que ser menor a 101
 inventor.item.form.error.incorrect-technology = Tecnologia tiene que ser menor a 101
 inventor.item.form.error.incorrect-description = Descripcion tiene que ser menor a 256
+inventor.item.form.error.spam = Supera el umbral de Spam
 
 inventor.item.form.button.create = Crear
 inventor.item.form.button.update = Actualizar

@@ -13,7 +13,7 @@ public class InventorToolkitShowTest  extends TestHarness{
 	@CsvFileSource(resources = "/inventor/toolkit/show.csv", encoding = "utf-8", numLinesToSkip = 1)
 	@Order(10)
 	public void positiveTest(final int recordIndex,final String code, final String title, final String description,  
-								final String assemblyNote, final String retailPrice, final String optionalLink) {
+								final String assemblyNote, final String optionalLink) {
 		
 		super.signIn("inventor1", "inventor1");
 		super.clickOnMenu("Inventor", "List my Toolkits");
@@ -25,7 +25,6 @@ public class InventorToolkitShowTest  extends TestHarness{
 		super.checkInputBoxHasValue("title", title);
 		super.checkInputBoxHasValue("description", description);
 		super.checkInputBoxHasValue("assemblyNote", assemblyNote);
-		super.checkInputBoxHasValue("retailPrice", retailPrice);
 		super.checkInputBoxHasValue("optionalLink", optionalLink);
 		
 		super.signOut();

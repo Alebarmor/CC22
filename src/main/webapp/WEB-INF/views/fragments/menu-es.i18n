@@ -25,7 +25,7 @@ master.menu.anonymous.toolkit.list-all = Ver todos Toolkits
 
 # master.menu.authenticated #######################################################
 
-master.menu.authenticated = Authenticated
+master.menu.authenticated = Autenticado
 master.menu.authenticated.chirp.list-recent = Ver chirps recientes
 master.menu.authenticated.item.list-all = Ver todos los Items
 master.menu.authenticated.toolkit.list-all = Ver todos Toolkits
@@ -74,8 +74,8 @@ master.menu.inventor.chirp.list-recent = Ver chirps recientes
 master.menu.inventor.patronage.list-mine = Ver mis patrocinios
 master.menu.inventor.patronage-report.list-mine = Ver los reportes de mis patrocinios
 master.menu.inventor.toolkit.list-mine-toolkit = Ver mis kits de herramientas
-master.menu.inventor.xx1.list-mine = Ver mis xe1
 master.menu.inventor.item.list-mine = Ver mis Items
+master.menu.inventor.xx1.list-mine = Ver mis xe1
 
 # master.menu.user-account ####################################################
 

@@ -124,7 +124,11 @@ public class InventorXx1CreateTest extends TestHarness{
         	dayS = "0" + dayS;
         }
         
-        final String codeToday = yearTwoDigits + "-" + monthS + "-" + dayS + ":";
+        String codeToday = yearTwoDigits + "-" + monthS + "-" + dayS + ":";
+        
+        if (code.length() < 1) {
+        	codeToday = "";
+        }
 		
 		super.fillInputBoxIn("code", codeToday + code);
 		super.fillInputBoxIn("items", items);
